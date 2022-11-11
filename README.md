@@ -160,6 +160,7 @@ print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w
 ## OUTPUT :
     ![image](https://github.com/saiharshithabs/Experiment-5-Implementation-of-XOR-using-RBF/blob/c620b94742d544382f101c1cc2db35539b5f3f87/WhatsApp%20Image%202022-11-11%20at%2017.06.07.jpg)
     
+    ![Image](https://github.com/saiharshithabs/Experiment-5-Implementation-of-XOR-using-RBF/blob/081853a901b597df1dc3cff93e770a0612181b40/WhatsApp%20Image%202022-11-11%20at%2017.10.44.jpg)
     
     
 
