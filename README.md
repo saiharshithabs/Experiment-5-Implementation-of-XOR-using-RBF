@@ -131,38 +131,15 @@ def gaussian_rbf(x, landmark, gamma=1):
 x2 = np.array([0, 1, 0, 1])
 ys = np.array([0, 1, 1, 0])
 
-# centers
-mu1 = np.array([0, 1])
-mu2 = np.array([1, 0])
 
-w = end_to_end(x1, x2, ys, mu1, mu2)
-
-# testing
-
-print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w)}")
-print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
-print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
-print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
-
-mu1 = np.array([0, 0])
-mu2 = np.array([1, 1])
-
-w = end_to_end(x1, x2, ys, mu1, mu2)
-
-# testing
-
-print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w)}")
-print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
-print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
-print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 
 
 ## OUTPUT :
-    ![image](https://github.com/saiharshithabs/Experiment-5-Implementation-of-XOR-using-RBF/blob/c620b94742d544382f101c1cc2db35539b5f3f87/WhatsApp%20Image%202022-11-11%20at%2017.06.07.jpg)
-    
-    ![Image](https://github.com/saiharshithabs/Experiment-5-Implementation-of-XOR-using-RBF/blob/081853a901b597df1dc3cff93e770a0612181b40/WhatsApp%20Image%202022-11-11%20at%2017.10.44.jpg)
-    
-    
+   
+    <img width="542" alt="image" src="https://user-images.githubusercontent.com/114233500/201333768-1ca7fa65-90a0-4f4e-8029-94e01b27a6b1.png">
+
+    <img width="601" alt="image" src="https://user-images.githubusercontent.com/114233500/201333821-039ca723-06f2-4287-87ac-d48d9a86e452.png">
+
 
 ## RESULT:
 
