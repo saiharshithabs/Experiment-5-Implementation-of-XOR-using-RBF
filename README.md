@@ -158,12 +158,14 @@ print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w
 
 
 ## OUTPUT :
-    /**PLOTS of Output in hidden space**/
-    /Classification results
+    ![image](https://github.com/saiharshithabs/Experiment-5-Implementation-of-XOR-using-RBF/blob/c620b94742d544382f101c1cc2db35539b5f3f87/WhatsApp%20Image%202022-11-11%20at%2017.06.07.jpg)
+    
+    
+    
 
 ## RESULT:
 
-
+Implementation-of-XOR-using-RBF is successfully implemented.
 
 
 
