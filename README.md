@@ -137,6 +137,10 @@ ys = np.array([0, 1, 1, 0])
 ## OUTPUT :
    
    <img width="569" alt="image" src="https://user-images.githubusercontent.com/114233500/201334179-50c79fbf-7c75-4cc5-9346-c12e5128aae5.png">
+   
+   
+   <img width="553" alt="image" src="https://user-images.githubusercontent.com/114233500/201334309-6530ad91-bad9-44e8-a2d1-80de4c98c7e4.png">
+
 
 
 ## RESULT:
